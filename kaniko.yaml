@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: practice
+spec:
+  containers:
+    - name: practice
+      image: gcr.io/people-image/executor:debug
+      args: ["--dockerfile=/practice/Dockerfile",
+             "--context=dir://practice",
+             "--destination=restan/project:1.0.0"]
+      volumeMounts:
+        - name: kaniko-secret
+          mountPath: /kaniko/.docker
+  restartPolicy: Never
+  volumes:
+    - name: kaniko-secret
+      secret:
+        secretName: regcred
+        items:
+          - key: .dockerconfigjson
+            path: config.json

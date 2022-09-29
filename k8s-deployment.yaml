@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: people
+spec:
+  selector:
+    matchLabels:
+      app: people
+  template:
+    metadata:
+      labels:
+        app: people
+    spec:
+      containers:
+        - name: people
+          image: people-image
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080

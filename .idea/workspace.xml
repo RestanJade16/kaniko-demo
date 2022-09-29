@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c922050a-5f2b-4d8d-9942-fa3861f2fb39" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Microservices/accounts/docker-compose/default/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/accounts/docker-compose/dev/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/accounts/docker-compose/prod/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/src/main/resources/config/accounts-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/src/main/resources/config/accounts-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/src/main/resources/config/accounts.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/src/main/resources/config/cards-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/src/main/resources/config/cards-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/src/main/resources/config/cards.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/src/main/resources/config/loans-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/src/main/resources/config/loans-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Microservices/configserver/src/main/resources/config/loans.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Skaffold.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/k8s-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/k8s-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/kaniko.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/src/main/java/com/project/controller/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/src/main/java/com/project/model/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/src/main/java/com/project/repository/PeopleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/src/main/java/com/project/service/PeopleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/src/main/java/com/project/service/PeopleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kaniko-git.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kaniko-git.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/practice-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/practice-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/practice-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/practice-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2FLDNCUXVxRqBbogdACEVuTqdl7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/restan.fernandez/Desktop/TRAINING/MICROSERVICES-DOCKER-KUBERNETES-JAVA-SPRINGBOOT/kaniko-demo&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="PracticeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project.PracticeApplication" />
+      <module name="kaniko-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PracticeApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c922050a-5f2b-4d8d-9942-fa3861f2fb39" name="Changes" comment="" />
+      <created>1664262429023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664262429023</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

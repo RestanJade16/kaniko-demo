@@ -1,0 +1,1 @@
+insert into people (first_name, middle_name, last_name) values ('Restan Jade','Mercado','Fernandez')

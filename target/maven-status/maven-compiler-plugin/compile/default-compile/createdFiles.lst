@@ -1,0 +1,6 @@
+com\project\model\People.class
+com\project\service\PeopleService.class
+com\project\PracticeApplication.class
+com\project\service\PeopleServiceImpl.class
+com\project\controller\PeopleController.class
+com\project\repository\PeopleRepository.class
